@@ -1,0 +1,89 @@
+import java.util.Scanner;
+class Main82 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String [] morsecode =sc.nextLine().split(" ");
+        for(int i=0; i<morsecode.length; i++){
+            String tran = morsecode[i];
+            if(tran.equals(".-")){
+                System.out.print("A");
+            }
+            if(tran.equals("-...")){
+                System.out.print("B");
+            }
+            if(tran.equals("-.-.")){
+                System.out.print("C");
+            }
+            if(tran.equals("-..")){
+                System.out.print("D");
+            }
+            if(tran.equals(".")){
+                System.out.print("E");
+            }
+            if(tran.equals("..-.")){
+                System.out.print("F");
+            }
+            if(tran.equals("--.")){
+                System.out.print("G");
+            }
+            if(tran.equals("....")){
+                System.out.print("H");
+            }
+            if(tran.equals("..")){
+                System.out.print("I");
+            }
+            if(tran.equals(".---")){
+                System.out.print("J");
+            }
+            if(tran.equals("-.-")){
+                System.out.print("K");
+            }
+            if(tran.equals(".-..")){
+                System.out.print("L");
+            }
+            if(tran.equals("--")){
+                System.out.print("M");
+            }
+            if(tran.equals("-.")){
+                System.out.print("N");
+            }
+            if(tran.equals("---")){
+                System.out.print("O");
+            }
+            if(tran.equals(".--.")){
+                System.out.print("P");
+            }
+            if(tran.equals("--.-")){
+                System.out.print("Q");
+            }
+            if(tran.equals(".-.")){
+                System.out.print("R");
+            }
+            if(tran.equals("...")){
+                System.out.print("S");
+            }
+            if(tran.equals("-")){
+                System.out.print("T");
+            }
+            if(tran.equals("..-")){
+                System.out.print("U");
+            }
+            if(tran.equals("...-")){
+                System.out.print("V");
+            }
+            if(tran.equals(".--")){
+                System.out.print("W");
+            }
+            if(tran.equals("-..-")){
+                System.out.print("X");
+            }
+            if(tran.equals("-.--")){
+                System.out.print("Y");
+            }
+            if(tran.equals("--..")){
+                System.out.print("Z");
+            }
+
+        }
+    }
+}
