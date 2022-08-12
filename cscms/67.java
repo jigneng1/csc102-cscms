@@ -1,22 +1,23 @@
-import java.util.Scanner;
-
-class Main67 {
+import java.util.*;
+class Main67{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
-        int result=0;
-        for(int i=1; i<=num; i++){
-            if(i%2==0){
-                result=result+(i*2);
+        int distance = sc.nextInt();
+        int result = 0;
+        for(int i=1; i<=distance; i++){
+            if(i%15==0){
+                result += 10*i;
             }
             else if(i%5==0){
-                result=result+(i*5);
+                result += 3*i;
+            }
+            else if(i%3==0){
+                result += 2*i;
             }
             else{
-                result=result+i;
+                result+=i;
             }
         }
-
-        sc.close();
+        System.out.println(result);
     }
 }
